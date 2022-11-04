@@ -7,9 +7,8 @@ import Layout from "../components/Layout";
 export default function Home() {
   return (
     <Layout title="Home | Next.js"
-    description="Bienvenido al Home"
-    home
-    children={
+      description="Bienvenido al Home"
+      home>
       <section className={utilStyles.headingMd}>
         <p>[Your Self Introduction]</p>
         <p>
@@ -17,6 +16,6 @@ export default function Home() {
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
-    } />
+    </Layout>
   )
 }
